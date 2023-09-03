@@ -96,7 +96,7 @@
         },
         "3": {
             "name": "Substring with Concatenation of All Words",
-            "problem": "You are given a string s and an array of strings words. You are to find all substrings in s thatConcatenationOfAllWords":"consists of each word in words exactly once and without any intervening characters.\nReturn all valid substrings in any order.",
+            "problem": "You are given a string s and an array of strings words. You are to find all substrings in s thatConcatenationOfAllWords consists of each word in words exactly once and without any intervening characters.\nReturn all valid substrings in any order.",
             "examples": "Example 1:\nInput: s = \"barfoothefoobarman\", words = [\"foo\",\"bar\"]\nOutput: [0, 9]\nExplanation: Substrings starting at index 0 and 9 are \"barfoo\" and \"foobar\" respectively.\nExample 2:\nInput: s = \"wordgoodgoodgoodbestword\", words = [\"word\",\"good\",\"best\",\"word\"]\nOutput: []",
             "constraints": "1 <= s.length <= 104\ns consists of only lowercase English letters.\n1 <= words.length <= 5000\n1 <= words[i].length <= 100\nAll the words of words are unique."
         },
